@@ -3,12 +3,47 @@ package com.aluracursos.screenmatch.modelos;
 public class Pelicula {
 
     // Atributos de la clase Pelicula
-    public String nombre;
-    public int fechaDeLanzamineto;
-    public int duracionEnMinutos;
-    public boolean incluidoEnElPlan;
+    private String nombre;
+    private int fechaDeLanzamineto;
+    private int duracionEnMinutos;
+    private boolean incluidoEnElPlan;
     private double sumaDeLasEvaluciones;
     private int totalDeLasEvaluaciones;
+
+    // Getters y Setters (metodos)
+
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getFechaDeLanzamineto() {
+        return fechaDeLanzamineto;
+    }
+
+    public int getDuracionEnMinutos() {
+        return duracionEnMinutos;
+    }
+
+    public boolean isIncluidoEnElPlan() {
+        return incluidoEnElPlan;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setFechaDeLanzamineto(int fechaDeLanzamineto) {
+        this.fechaDeLanzamineto = fechaDeLanzamineto;
+    }
+
+    public void setDuracionEnMinutos(int duracionEnMinutos) {
+        this.duracionEnMinutos = duracionEnMinutos;
+    }
+
+    public void setIncluidoEnElPlan(boolean incluidoEnElPlan) {
+        this.incluidoEnElPlan = incluidoEnElPlan;
+    }
 
     // Constructor de la clase Pelicula (metodos)
     public double getSumaDeLasEvaluciones(){

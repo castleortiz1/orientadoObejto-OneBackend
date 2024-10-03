@@ -3,24 +3,20 @@ import com.aluracursos.screenmatch.modelos.Pelicula;
 public class Principal {
     public static void main(String[] args) {
         Pelicula miPelicula = new Pelicula();
-        miPelicula.nombre = "Encanto";
-        miPelicula.fechaDeLanzamineto = 2021;
-        miPelicula.duracionEnMinutos = 120;
+        miPelicula.setNombre("Encanto");
+        miPelicula.setFechaDeLanzamineto(2021);
+        miPelicula.setDuracionEnMinutos(120);
+        miPelicula.setIncluidoEnElPlan(true);
 
         miPelicula.muestraFichaTecnica();
         miPelicula.evalua(9.2);
         miPelicula.evalua(10);
         miPelicula.evalua(7.8);
 
-        System.out.println(miPelicula.getSumaDeLasEvaluciones());
-        System.out.println(miPelicula.getTotalDeLasEvaluaciones());
-        System.out.println(miPelicula.calculaMedia());
+        System.out.println("Media de evaluacion de la pelicula: " +miPelicula.calculaMedia());
 
 
-        Pelicula otraPelicula = new Pelicula();
-        otraPelicula.nombre = "La La Land";
-        otraPelicula.fechaDeLanzamineto = 2016;
-        otraPelicula.duracionEnMinutos = 125;
+
 
 
 
