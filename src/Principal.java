@@ -10,13 +10,10 @@ public class Principal {
         miPelicula.evalua(10);
         miPelicula.evalua(7.8);
 
-        System.out.println(miPelicula.sumaDeLasEvaluciones);
-        System.out.println(miPelicula.totalDeLasEvaluaciones);
+        System.out.println(miPelicula.getSumaDeLasEvaluciones());
+        System.out.println(miPelicula.getTotalDeLasEvaluaciones());
         System.out.println(miPelicula.calculaMedia());
-        System.out.println("******************");
-        miPelicula.sumaDeLasEvaluciones = 2;
-        miPelicula.totalDeLasEvaluaciones = 1;
-        System.out.println(miPelicula.calculaMedia());
+
 
         Pelicula otraPelicula = new Pelicula();
         otraPelicula.nombre = "La La Land";
@@ -26,9 +23,10 @@ public class Principal {
         otraPelicula.muestraFichaTecnica();
         otraPelicula.evalua(8.2);
         otraPelicula.evalua(10);
+        otraPelicula.evalua(7.5);
 
-        System.out.println(otraPelicula.sumaDeLasEvaluciones);
-        System.out.println(otraPelicula.totalDeLasEvaluaciones);
+        System.out.println(otraPelicula.getSumaDeLasEvaluciones());
+        System.out.println(otraPelicula.getTotalDeLasEvaluaciones());
         System.out.println(otraPelicula.calculaMedia());
 
     }
