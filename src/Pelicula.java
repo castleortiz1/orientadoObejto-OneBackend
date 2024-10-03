@@ -11,6 +11,7 @@ public class Pelicula {
         System.out.println("\nEl nombre de la pelicula es: " + nombre);
         System.out.println("Su fecha de lanzamiento fue el: " + fechaDeLanzamineto);
         System.out.println(duracionEnMinutos + " Minutos de Duracion.");
+
     }
 
     void evalua(double nota){
@@ -21,5 +22,7 @@ public class Pelicula {
 
     double calculaMedia(){
             return sumaDeLasEvaluciones / totalDeLasEvaluaciones;
+
     }
+
 }

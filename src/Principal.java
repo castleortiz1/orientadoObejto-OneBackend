@@ -8,9 +8,14 @@ public class Principal {
         miPelicula.muestraFichaTecnica();
         miPelicula.evalua(9.2);
         miPelicula.evalua(10);
+        miPelicula.evalua(7.8);
 
         System.out.println(miPelicula.sumaDeLasEvaluciones);
         System.out.println(miPelicula.totalDeLasEvaluaciones);
+        System.out.println(miPelicula.calculaMedia());
+        System.out.println("******************");
+        miPelicula.sumaDeLasEvaluciones = 2;
+        miPelicula.totalDeLasEvaluaciones = 1;
         System.out.println(miPelicula.calculaMedia());
 
         Pelicula otraPelicula = new Pelicula();
@@ -27,4 +32,5 @@ public class Principal {
         System.out.println(otraPelicula.calculaMedia());
 
     }
+
 }
