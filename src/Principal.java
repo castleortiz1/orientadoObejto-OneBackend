@@ -1,3 +1,5 @@
+import com.aluracursos.screenmatch.modelos.Pelicula;
+
 public class Principal {
     public static void main(String[] args) {
         Pelicula miPelicula = new Pelicula();
@@ -20,14 +22,24 @@ public class Principal {
         otraPelicula.fechaDeLanzamineto = 2016;
         otraPelicula.duracionEnMinutos = 125;
 
-        otraPelicula.muestraFichaTecnica();
-        otraPelicula.evalua(8.2);
-        otraPelicula.evalua(10);
-        otraPelicula.evalua(7.5);
 
-        System.out.println(otraPelicula.getSumaDeLasEvaluciones());
-        System.out.println(otraPelicula.getTotalDeLasEvaluaciones());
-        System.out.println(otraPelicula.calculaMedia());
+
+
+
+
+
+
+
+
+
+//        otraPelicula.muestraFichaTecnica();
+//        otraPelicula.evalua(8.2);
+//        otraPelicula.evalua(10);
+//        otraPelicula.evalua(7.5);
+//
+//        System.out.println(otraPelicula.getSumaDeLasEvaluciones());
+//        System.out.println(otraPelicula.getTotalDeLasEvaluaciones());
+//        System.out.println(otraPelicula.calculaMedia());
 
     }
 
